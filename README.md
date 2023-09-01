@@ -89,6 +89,7 @@ Color map:
 
 ## Citation
 GTNet code refers to the following codes: 
+
 [DGCNN](https://github.com/antao97/dgcnn.pytorch)
 
 [Point Transformer](https://github.com/qq456cvb/Point-Transformers)
