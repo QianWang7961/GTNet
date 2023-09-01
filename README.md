@@ -32,6 +32,7 @@ python main_partseg.py --exp_name=partseg_eval --eval=True --model_path='xxx'
 ShapeNet part dataset
 
 | | Mean IoU | Airplane | Bag | Cap | Car | Chair | Earphone | Guitar | Knife | Lamp | Laptop | Motor | Mug | Pistol | Rocket | Skateboard | Table
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 | This repo |85.1|84.1|77.7|82.7|77.4|91.0|76.3|91.8|86.5|83.5|96.1|58.5|92.4|81.9|53.5|76.6|82.9
 
 ### Visualization:
