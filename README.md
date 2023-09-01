@@ -41,7 +41,7 @@ ShapeNet part dataset
 Both .txt and .ply file can be loaded into [MeshLab](https://www.meshlab.net) for visualization. For the usage of MeshLab on .txt file. The .ply file can be directly loaded into MeshLab by dragging.
 python main_partseg.py --exp_name=partseg_eval --eval=True --model_path='xxx' --visu=Earphone_0 --visu_format=ply
 #### Results:
-The visualization result of the airplane 0:
+The visualization result:
 
 <p float="left">
     <img src="image/partseg_visu.png"/>
@@ -85,7 +85,6 @@ Color map:
     <img src="image/semseg_colors.png" width="800"/>
 </p>
 
-&nbsp;
 
 ## Citation
 GTNet code refers to the following papers: 
