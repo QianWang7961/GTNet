@@ -28,6 +28,8 @@ python main_partseg.py --exp_name=partseg_airplane --class_choice=Earphone
 
 ### Run the evaluation script after training finished:
 python main_partseg.py --exp_name=partseg_eval --eval=True --model_path='xxx'
+
+
 ### Performance:
 ShapeNet part dataset
 
