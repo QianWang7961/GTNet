@@ -75,7 +75,7 @@ Stanford Large-Scale 3D Indoor Spaces Dataset (S3DIS) dataset
 Both .txt and .ply file can be loaded into [MeshLab](https://www.meshlab.net) for visualization. For the usage of MeshLab on .txt file. The .ply file can be directly loaded into MeshLab by dragging.
 python main_semseg_s3dis.py --exp_name=semseg_eval --test_area=all --eval=True --model_root='xxx' --visu_format=ply
 #### Results:
-The visualization result of the office room 1 in area 6:
+The visualization result:
 
 <p float="left">
     <img src="image/semseg_visu.png"/>
