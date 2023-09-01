@@ -17,13 +17,14 @@ ModelNet40 dataset
 | This repo (2048 points) | **91.2** | **93.6** |
 
 &nbsp;
+
 ## Point Cloud Part Segmentation
 **Note:** The training modes **'full dataset'** and **'with class choice'** are different.
 
 ### Run the training script:
-``` 
 python main_partseg.py --exp_name=partseg
 - With class choice, for example Earphone
+- ``` 
 python main_partseg.py --exp_name=partseg_airplane --class_choice=Earphone
 
 ### Run the evaluation script after training finished:
@@ -33,7 +34,8 @@ ShapeNet part dataset
 
 | | Mean IoU | Airplane | Bag | Cap | Car | Chair | Earphone | Guitar | Knife | Lamp | Laptop | Motor | Mug | Pistol | Rocket | Skateboard | Table
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
-| This repo |85.1|84.1|77.7|82.7|77.4|91.0|76.3|91.8|86.5|83.5|96.1|58.5|92.4|81.9|53.5|76.6|82.9|
+| This repo | 85.1 | 84.1 | 77.7 | 82.7 | 77.4 | 91.0 | 76.3 | 91.8 | 86.5 | 83.5 | 96.1 | 58.5 | 92.4 | 81.9 | 53.5 | 76.6 | 82.9 |
+
 
 ### Visualization:
 #### Usage:
