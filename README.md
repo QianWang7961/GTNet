@@ -24,7 +24,6 @@ ModelNet40 dataset
 ### Run the training script:
 python main_partseg.py --exp_name=partseg
 - With class choice, for example Earphone
-- ``` 
 python main_partseg.py --exp_name=partseg_airplane --class_choice=Earphone
 
 ### Run the evaluation script after training finished:
