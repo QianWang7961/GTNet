@@ -62,11 +62,9 @@ python main_semseg.py --test_area=3
 python main_semseg.py --test_area=6
 ### Run the evaluation script after training finished:
 - Evaluate in all areas after 6 models are trained
-
-``` 
 python main_semseg.py --exp_name=semseg_eval --test_area=all --eval=True --model_root='xxx'
-### Performance:
 
+### Performance:
 Stanford Large-Scale 3D Indoor Spaces Dataset (S3DIS) dataset
 
 |  | Mean IoU | Overall Acc |
