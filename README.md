@@ -68,6 +68,7 @@ python main_semseg.py --exp_name=semseg_eval --test_area=all --eval=True --model
 Stanford Large-Scale 3D Indoor Spaces Dataset (S3DIS) dataset
 
 |  | Mean IoU | Overall Acc |
+| :---: | :---: | :---: |
 | This repo | **64.3** | **86.6** |
 ### Visualization: 
 #### Usage:
